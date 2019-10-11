@@ -429,7 +429,7 @@ ggplot(sh, aes(n, reliability)) + geom_line() + labs(x = &quot;Velikost vzorku&q
 <p><span class="math inline">\(n_{present\ items} = 10\)</span><br />
 </p>
 <p><span class="math inline">\(rel(X) = 0,7\)</span> </p>
-<p><span class="math inline">\(m = \frac{n_{present\ items}}{n_{original\ items}} = \frac{10}{5} = 2\)</span> </p>
+<p><span class="math display">\[m = \frac{n_{present\ items}}{n_{original\ items}} = \frac{10}{5} = 2\]</span></p>
 <p><span class="math display">\[rel(X&#39;) = \frac{m \cdot rel(X)}{1+(m-1) \cdot rel(X)} = \frac{2 \cdot 0,7}{1 + 2 \cdot 0,7} = 0,58\overline{3}\]</span></p>
 </div>
 <div id="section-7" class="section level4">
@@ -440,7 +440,7 @@ ggplot(sh, aes(n, reliability)) + geom_line() + labs(x = &quot;Velikost vzorku&q
 </p>
 <p><span class="math inline">\(n_{original\ items} = 5\)</span><br />
 </p>
-<p><span class="math inline">\(n_{items} = ?\)</span><br />
+<p><span class="math inline">\(n_{present\ items} = ?\)</span><br />
 </p>
 <p><span class="math display">\[rel(X&#39;) = \frac{m \cdot rel(X)}{1+(m-1)  rel(X)}\]</span> <span class="math display">\[rel(X&#39;)[1+(m-1) rel(X)] = m \cdot rel(X)\]</span> <span class="math display">\[rel(X&#39;) + rel(X&#39;)(m-1)rel(X) = m \cdot rel(X)\]</span> <span class="math display">\[rel(X&#39;) + m\cdot rel(X&#39;)rel(X)- rel(X&#39;)rel(X) = m \cdot rel(X)\]</span> <span class="math display">\[rel(X&#39;)-rel(X&#39;)rel(X)=m\cdot rel(X) - m \cdot rel(X&#39;)rel(X)\]</span> <span class="math display">\[rel(X&#39;)-rel(X&#39;)rel(X)= m[rel(X) - rel(X&#39;)rel(X)]\]</span> <span class="math display">\[\frac{rel(X&#39;)-rel(X&#39;)rel(X)}{rel(X) - rel(X&#39;)rel(X)}= m\]</span> <span class="math display">\[\frac{rel(X&#39;)[1-rel(X)]}{rel(X)[1-rel(X&#39;)]}= m\]</span></p>
 <p><span class="math display">\[ m = \frac{0,9(1-0,7)}{0,7(1-0,9)} = \frac{0,9\cdot 0,3}{0,7\cdot 0,1} = \frac{0,27}{0,07} \approx 3,86 \]</span></p>
@@ -513,7 +513,7 @@ m*5</code></pre>
 <li>nepřesný odhad měřeného atributu</li>
 <li>široké konfidenční intervaly</li>
 <li>oslabení maximální možné hodnoty korelací mezi kritériem a psychometrickou metodou</li>
-<li>potřeba komenzace nedostatečné reliability větším výběrovým souborem pro získání dostatečné statistické síly</li>
+<li>potřeba kompenzace nedostatečné reliability větším výběrovým souborem pro získání dostatečné statistické síly</li>
 </ul>
 </div>
 <div id="section-13" class="section level4">
